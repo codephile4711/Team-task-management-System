@@ -41,25 +41,15 @@ TaskFlow is a modern, full-stack project management application designed for tea
    npm install
    ```
 
-3. **Environment Setup**:
-   Create a `.env` file in the root directory:
-   ```env
-   DATABASE_URL="postgresql://user:password@host:port/dbname"
-   JWT_SECRET="your-secure-secret-key"
-   ```
-
-4. **Initialize Database**:
+3. **Initialize Database**:
    ```bash
    npx prisma generate
    npx prisma db push
    ```
 
-5. **Run the development server**:
+4. **Run the development server**:
    ```bash
    npm run dev
    ```
    Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-## 📄 License
-
-This project is licensed under the MIT License.
