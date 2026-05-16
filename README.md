@@ -51,5 +51,5 @@ TaskFlow is a modern, full-stack project management application designed for tea
    ```bash
    npm run dev
    ```
-   Open [http://localhost:3000](http://localhost:3000) in your browser.
+   Open https://task-manager-alpha-one-37.vercel.app/ in your browser.
 
